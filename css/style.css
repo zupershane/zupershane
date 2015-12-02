@@ -1,10 +1,10 @@
 /****** VARIABLES ******/
 /****** HIGHLIGHTS ******/
 ::selection {
-  background: #ffd800;
+  background: #0076FF;
 }
 ::-moz-selection {
-  background: #ffd800;
+  background: #0076FF;
 }
 a {
   text-decoration: none;
@@ -24,8 +24,6 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0px;
   margin: 0px;
-  height: 100%;
-  width: 100%;
 }
 
 /****** TYPOGRAPHY ******/
@@ -77,7 +75,7 @@ p {
 .container {
 	margin-left: 50px;
 	margin-top: 50px;
-	max-width: 500px;
+	width: 500px;
 }
 
 .logo {
