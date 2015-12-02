@@ -2,9 +2,11 @@
 /****** HIGHLIGHTS ******/
 ::selection {
   background: #2029FF;
+  color: #F6F6F6;
 }
 ::-moz-selection {
   background: #2029FF;
+  color: #F6F6F6
 }
 a {
   text-decoration: none;
