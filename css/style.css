@@ -110,6 +110,7 @@ p {
   background-image: url("../images/profilepic.png");
   background-size:  140px 140px;
   display: block;
+  margin-bottom: 50px;
 }
 
 
