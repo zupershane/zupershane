@@ -34,22 +34,24 @@ h1 {
   color: #1E1E1F;
   font-family: 'Karla', sans-serif;
   font-size: 16px;
+  font-weight: 700;
   letter-spacing: 0.3px;
-  font-weight: 800;
   text-align: left;
   margin: 0;
   padding: 0;
-
+  text-transform: uppercase;
 }
 
 h2 {
   color: #1E1E1F;
   font-family: 'Karla', sans-serif;
   font-size: 16px;
+  font-weight: 700;
   letter-spacing: 0.3px;
   text-align: left;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -65,7 +67,7 @@ h3 {
 p {
   color: #1E1E1F;
   font-family: 'Karla', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.6em;
   max-width: 360px;
