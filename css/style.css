@@ -70,6 +70,7 @@ p {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.6em;
+  letter-spacing: -0.3px;
   max-width: 360px;
   margin: 0px 0px 50px 0px;
 }
