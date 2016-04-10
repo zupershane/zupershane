@@ -35,7 +35,7 @@ h1 {
   font-family: 'Karla', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.3px;
+  letter-spacing: -0.3px;
   text-align: left;
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ h2 {
   font-family: 'Karla', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.3px;
+  letter-spacing: -0.3px;
   text-align: left;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@ h3 {
   color: #0000FF;
   font-family: 'Karla', sans-serif;
   font-size: 40px;
-  letter-spacing: 0.3px;
+  letter-spacing: -1px;
   text-align: left;
   margin: 0;
   padding: 0;
