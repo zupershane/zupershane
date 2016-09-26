@@ -1,0 +1,141 @@
+/****** VARIABLES ******/
+/****** HIGHLIGHTS ******/
+::selection {
+  background: #2029FF;
+  color: #F6F6F6;
+}
+::-moz-selection {
+  background: #2029FF;
+  color: #F6F6F6
+}
+a {
+  text-decoration: none;
+}
+
+/****** STRUCTURE ******/
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #F6F6F6;
+  -webkit-font-smoothing: antialiased;
+  padding: 0px;
+  margin: 0px;
+}
+
+/****** TYPOGRAPHY ******/
+
+h1 {
+  color: #1E1E1F;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  
+}
+
+h2 {
+  color: #1E1E1F;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+    
+}
+
+h3 {
+  color: #0000FF;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #1E1E1F;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6em;
+  letter-spacing: -0.3px;
+  max-width: 360px;
+  margin: 0px 0px 50px 0px;
+}
+
+
+/****** CONTENT ******/
+
+.container {
+	margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.logo {
+	margin: 0px 0px 50px 0px;
+}
+
+.rotating-text {
+	margin: 0px 0px 50px 0px;
+}
+
+.brick {
+  max-width: 26px;
+  height: 5px;
+  background-color: #DADADA;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  margin: 0px 0px 50px 0px;
+  padding: 0;
+}
+
+.profilepic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50px;
+  background-image: url("../images/profilepic.png");
+  background-size:  140px 140px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+/****** RETINA IMAGES ******/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 170dpi) {
+  
+  .profilepic {
+    background: url("../images/profilepic@2x.png") no-repeat;
+    background-size: 140px 140px ;
+  }
+  
+}
+
+/****** RESPONSIVE LAYOUTS ******/
+@media screen and (max-width: 980px) {
+  
+}
+
+

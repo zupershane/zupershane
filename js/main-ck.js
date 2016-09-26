@@ -1,0 +1,2 @@
+// STICKY HEADER
+var mainMenuTop=$(".main-content").offset().top,stickyReveal=mainMenuTop-100;$(window).scroll(function(){var e=$(window).scrollTop();e>stickyReveal?$("#sticky-header").is(":visible")===!1&&$("#sticky-header").fadeIn("fast"):$("#sticky-header").is(":visible")&&$("#sticky-header").fadeOut("fast")});(new WOW).init();$(document).ready(function(){$(".bxSlider").bxSlider({slideWidth:920,maxSlides:1,minSlides:1,moveSlides:1,easing:"ease-in-out",slideMargin:10})});
