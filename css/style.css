@@ -1192,39 +1192,14 @@ p {
    
   }
 
-  .kicker-type   {
-    height: 54px;
-    color: #1f1f20;
-    font-size: 40px;  
-    font-weight: normal;
-    text-align: left;
+  .kicker  {
+    display: none;
   }
 
-  .kicker-content  {
-    display: inline-block;
-    position: relative;
-    white-space: nowrap;
-    float: left;
-    top: 0;
-    left: 0;
-    opacity:1;
-    animation: move 15s;
-    animation-iteration-count: infinite;
-    animation-delay: 0.5s;
-
+  h3  {
+    display: none;
   }
 
-  @keyframes move {
-    0%  { top: 0; }
-    15% { top: 0px;}
-    20% { top: -54px; }
-    35% { top: -54px; }
-    40% { top: -108px; }
-    55% { top: -108px; }
-    60% { top: -162px; }
-    75% { top: -162px; }
-    80% { top: -216px; }
-    95% { top: -216px; }
-  }
+
 
 }
