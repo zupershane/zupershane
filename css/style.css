@@ -213,6 +213,7 @@ p {
   border-radius: 999px;
   background-image: url("../images/profilepic.png");
   display: block;
+  margin-top: 20px;
 }
 
 
